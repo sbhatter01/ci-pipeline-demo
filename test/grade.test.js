@@ -7,7 +7,7 @@ test("90 and above is an A", () => {
 });
 
 test("85 is a B", () => {
-  assert.strictEqual(letterGrade(85), "C");
+  assert.strictEqual(letterGrade(85), "B");
 });
 
 test("below 60 is an F", () => {
